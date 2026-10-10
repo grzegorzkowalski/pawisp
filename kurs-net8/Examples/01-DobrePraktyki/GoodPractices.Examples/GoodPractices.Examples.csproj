@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <AssemblyName>GoodPractices.Examples</AssemblyName>
+    <RootNamespace>GoodPractices.Examples</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Include="..\GoodAndBadStandards\BadCode.cs" Link="BadCode.cs" />
+    <Compile Include="..\GoodAndBadStandards\GoodCode.cs" Link="GoodCode.cs" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,18 @@
+{
+  "runtime": "Net80",
+  "documentGenerator": {
+    "fromDocument": {
+      "url": "https://localhost:7191/swagger/v1/swagger.json"
+    }
+  },
+  "codeGenerators": {
+    "openApiToCSharpClient": {
+      "className": "WeatherApiClient",
+      "namespace": "Course.Api.Generated",
+      "output": "Generated/WeatherApiClient.cs",
+      "generateClientInterfaces": true,
+      "injectHttpClient": true,
+      "useBaseUrl": true
+    }
+  }
+}
